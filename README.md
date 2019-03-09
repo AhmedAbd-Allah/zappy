@@ -15,9 +15,12 @@ Used Technologies:
   # in case of runing docker image
       - run docker compose up, this should take care of everthing (notice that you should have mongo docker image and node docker image)
       
-2- open your browser on localhost:4200 to access zappy front end
-3- open your browser, navigate to https://zappyheadquarters.slack.com and join the workspace (it's named as "Zappy")
+2- open your browser on localhost:4200 to access zappy front end.
+
+3- open your browser, navigate to https://zappyheadquarters.slack.com and join the workspace (it's named as "Zappy").
+
 4- after joining you can send messages and if your message contains the word "go", Fiction Fone tweets on twitter shall be displayed on the awesome zappy frontend at localhost:4200
+
 5- you may run test cases by just running this command "npm run test" and this is supposed to take care of running unit tests.
 
       
