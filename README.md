@@ -17,7 +17,7 @@ Used Technologies:
       
 2- open your browser on localhost:4200 to access zappy front end.
 
-3- open your browser, navigate to https://zappyheadquarters.slack.com and join the workspace (it's named as "Zappy").
+3- open your browser, navigate to https://zappyheadquarters.slack.com and join the workspace (it's named as "Zappy"), you may send me an email to gain access on the workspace.
 
 4- after joining you can send messages and if your message contains the word "go", Fiction Fone tweets on twitter shall be displayed on the awesome zappy frontend at localhost:4200
 
