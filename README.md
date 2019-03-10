@@ -29,8 +29,10 @@ Zappy is a simple tool to retrieve tweets from a twitter account based on specif
 ## Used Technologies
 Node.JS
 
-Angular
+Angular7
 
 MongoDB
+
+Mocha & Chai
 
 
