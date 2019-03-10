@@ -5,7 +5,7 @@ const async = require('async')
 
 
 module.exports = {
-    getTweets: function(req,res){
+    getTweets: function (req, res) {
         tweetsModel.find({}, function (err, tweets) {
             if (err)
                 res.json(err)
@@ -34,7 +34,8 @@ module.exports = {
 
                     var lastTweetDate = Date.parse(dataHolder.oldTweets[dataHolder.oldTweets.length - 1].created_at)
                     var newTweetDate = Date.parse(dataHolder.newTweets[dataHolder.newTweets.length - 1].created_at)
-                    if (newTweetDate > lastTweetDate) {
+                    if (newTweetDate != lastTweetDate ||
+                        dataHolder.oldTweets.length != dataHolder.newTweets.length) {
 
                         tweetsModel.deleteMany({}, function (err, emptyModel) {
                             if (err)
