@@ -16,7 +16,7 @@ Zappy is a simple tool to retrieve tweets from a twitter account based on specif
         - build both frontend and backend docker images using the command "docker build -t frontend" for frontend project and "docker build -t backend" for the backend project.
 
         - then you can run docker compose up to have an up and running docker image
-2- open your browser and navigate to "zappyheadquarters.slack.com" you may ask for permission to jion the workspace and permission will be granted.
+2- open your browser and navigate to "zappyheadquarters.slack.com" an invitation has been sent to your email to join slack workspace , or you can jpoin using this link https://join.slack.com/t/zappyheadquarters/shared_invite/enQtNTY4MDM4Mjk1NTc0LWNhMTVmZTQ4MzQ2NWJjZTI3NTg5ZDgxZTQyNmM2MWFjNDhkMjg1NzhkYTE3MGViOGM0MjlhYjI4YzZkZjA5MzQ
 
 3- you can open zappy awesome app through navigating to "localhost:4200" in your browser
 
