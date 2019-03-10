@@ -1,0 +1,9 @@
+
+<div class="card"  *ngFor="let tweet of tweets">
+  <div class="card-body">
+    <img src="assets/twitter.jpg" width="40" height="40" class=" align-top" alt="">
+    <h5 class="card-title">FictionFone</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{tweet.created_at}}</h6>
+    <p class="card-text">{{tweet.text}}</p>
+  </div>
+</div>

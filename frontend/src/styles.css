@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* body{
+    background-color: black;
+}  */
+
+
+.navbar{
+    height: 60px;
+    justify-content: stretch;
+    /* background-color: black */
+}
+
+.navbar div h1{
+    color: rgb(231, 79, 79);
+    float: left;
+    margin-left: 20px;
+    
+}
+
+.blockquote{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 60%;
+    margin-left: 20%
+}

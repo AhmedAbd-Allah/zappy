@@ -1,0 +1,24 @@
+div.card{
+    width: 60%;
+    margin: 40px;
+    margin-left: 20%
+}
+
+.card img{
+border-radius: 50%;
+display: inline;
+}
+
+.card h5{
+    display: inline;
+    margin-left: 15px;
+}
+
+.card .card-subtitle{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.card-title{
+    line-height: 1.8;
+}
