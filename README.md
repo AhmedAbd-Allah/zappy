@@ -11,7 +11,7 @@ Zappy is a simple tool to retrieve tweets from a twitter account based on specif
 
         - navigate to inside front and run "npm install" then run "npm start"
 
-    # To run project using docker image 
+    # To run project as docker image 
 
         - build both frontend and backend docker images using the command "docker build -t frontend" for frontend project and "docker build -t backend" for the backend project.
 
@@ -26,7 +26,9 @@ Zappy is a simple tool to retrieve tweets from a twitter account based on specif
 
 ## Used Technologies
 Node.JS
+
 Angular
+
 MongoDB
 
 
