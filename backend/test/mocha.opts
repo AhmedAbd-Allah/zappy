@@ -1,0 +1,4 @@
+--timeout 50s
+--reporter mochawesome
+--reporter-options overwrite=true,reportDir=test/report,reportFilename=ZappiTestReport
+--exit
