@@ -24,6 +24,8 @@ Zappy is a simple tool to retrieve tweets from a twitter account based on specif
 
 5- you can run backend unit test by running "npm run test" command after navigating to the backend
 
+6- you may also see the test result report through opening backend/test/report/ZappiTestReport.html , this will open test report in your browser
+
 ## Used Technologies
 Node.JS
 
