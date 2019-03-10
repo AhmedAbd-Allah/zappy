@@ -1,27 +1,31 @@
 # Zappy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
+Zappy is a simple tool to retrieve tweets from a twitter account based on specific message sent on a slack channel so it integrates with twitter and slack APIs
 
-## Development server
+## How to Run?
+1- clone project
+    # To run each of the two projects separately 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+        - navigate to inside backend and run "npm install" then run "npm start"
 
-## Code scaffolding
+        - navigate to inside front and run "npm install" then run "npm start"
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    # To run project using docker image 
 
-## Build
+        - build both frontend and backend docker images using the command "docker build -t frontend" for frontend project and "docker build -t backend" for the backend project.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+        - then you can run docker compose up to have an up and running docker image
+2- open your browser and navigate to "zappyheadquarters.slack.com" you may ask for permission to jion the workspace and permission will be granted.
 
-## Running unit tests
+3- you can open zappy awesome app through navigating to "localhost:4200" in your browser
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4- once you start send messages on slack, if your messages contains the word "go" you will see that zappy has retrieved tweets from "Fiction Fone" twitter account and posted them to frontend.
 
-## Running end-to-end tests
+5- you can run backend unit test by running "npm run test" command after navigating to the backend
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Used Technologies
+Node.JS
+Angular
+MongoDB
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
