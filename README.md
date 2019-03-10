@@ -20,7 +20,7 @@ Zappy is a simple tool to retrieve tweets from a twitter account based on specif
 
 3- you can open zappy awesome app through navigating to "localhost:4200" in your browser
 
-4- once you start send messages on slack, if your messages contains the word "go" you will see that zappy has retrieved tweets from "Fiction Fone" twitter account and posted them to frontend.
+4- once you start sending messages on slack, if your messages contains the word "go" you will see that zappy has retrieved tweets from "Fiction Fone" twitter account and posted them to frontend.
 
 5- you can run backend unit test by running "npm run test" command after navigating to the backend
 
