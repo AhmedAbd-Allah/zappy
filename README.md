@@ -4,6 +4,7 @@ Zappy is a simple tool to retrieve tweets from a twitter account based on specif
 
 ## How to Run?
 1- clone project
+
     # To run each of the two projects separately 
 
         - navigate to inside backend and run "npm install" then run "npm start"
